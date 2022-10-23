@@ -1,0 +1,19 @@
+total 68
+4 drwxr-xr-x 6 douaij douaij 4096 Oct 22 02:47 alarmessuis
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 21 22:08 alignitembutton
+4 drwxr-xr-x 6 douaij douaij 4096 Aug 23 15:33 ayoubproject
+4 drwxr-xr-x 7 douaij douaij 4096 Oct 20 19:26 Bookproject
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 27 14:38 BOoksproject
+4 drwxr-xr-x 6 douaij douaij 4096 Oct 21 17:45 cameradataasbitmap
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 20 21:53 constraintlayoutproject
+0 -rw-r--r-- 1 douaij douaij    0 Oct 22 18:49 dd.txt
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 23 19:27 Fontsactivity
+4 drwxr-xr-x 6 douaij douaij 4096 Oct 20 20:04 Fromscratchapp
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 18 12:49 hamzaApp
+4 drwxr-xr-x 6 douaij douaij 4096 Oct 20 23:12 implicite_intent
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 23 19:57 LoginApp
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 20 21:52 MyApplication
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 19 15:22 NOactivity
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 19 15:52 Partie12
+4 drwxr-xr-x 6 douaij douaij 4096 Oct 22 14:39 Recycling_vuew
+4 drwxr-xr-x 6 douaij douaij 4096 Sep 21 18:25 testspinner

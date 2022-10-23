@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#79d7ed">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/firstlayout"
+        android:background="@color/teal_700">
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="#a5ed79"
+            android:text="hamza APP"
+            android:textColor=" #4e6f4b "
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="172dp"
+            android:layout_marginEnd="23dp"
+            android:layout_toEndOf="@+id/txtWelcome"
+            android:background="@color/white"
+            android:text="test"
+            android:textColor="@color/black"
+            tools:text="test " />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+   android:padding="10dp"
+android:id="@+id/movieslayout"
+android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstlayout"
+        android:background="@drawable/border"
+        android:layout_marginTop="10dp"
+
+      >
+        <CheckBox
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+            android:id="@+id/jokerChekbox"
+    android:text="joker"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/batmanChekbox"
+android:layout_toRightOf="@id/jokerChekbox"
+            android:text="batman"/>
+        <CheckBox
+            android:id="@+id/superManChekbox"
+android:layout_toRightOf="@id/batmanChekbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="superman"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:padding="10dp"
+        android:id="@+id/radiolayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/movieslayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/myrect">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radiogroupitem"
+
+            >
+
+            <RadioButton
+                android:id="@+id/rbSingle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="single" />
+
+            <RadioButton
+                android:id="@+id/rbMarried"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Married" />
+            <RadioButton
+                android:id="@+id/rbinrelationsip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/rbSingle"
+                android:checked="false"
+                android:text="in relationship" />
+        </RadioGroup>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_below="@+id/radiolayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="20dp"
+>
+
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:progress="0"
+            android:theme="@style/prd" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressbar"
+            android:text="progress barr"
+            android:textColor="#12311D"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/border"
+           />
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">constraintlayoutproject</string>
+    <string-array name="students">
+        <item>hamza</item>
+        <item>abdelouahed</item>
+        <item>achraf</item>
+    </string-array>
+</resources>
