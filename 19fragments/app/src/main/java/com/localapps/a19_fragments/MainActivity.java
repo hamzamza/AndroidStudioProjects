@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Bundle bundle = new Bundle();
         bundle.putString("name", "hamza");
         frag.setArguments(bundle);
-        transaction.replace(R.id.framelayout, new FirstFragment());
+        transaction.replace(R.id.framelayout, frag);
         transaction.commit();
     }
 }
